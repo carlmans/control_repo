@@ -1,8 +1,8 @@
 node default {
-  file { '/root/README':
+  file { '/home/carl/README':
     ensure => file,
   }
-  file { '/root/TEST':
+  file { '/home/carl/TEST':
     ensure => file,
   }
 }
