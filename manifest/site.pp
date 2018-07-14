@@ -1,8 +1,5 @@
 node default {
-  file { '/home/carl/README':
-    ensure => file,
-  }
-  file { '/home/carl/TEST':
-    ensure => file,
-  }
+}
+node 'p-master.c.red-carver-209507.internal' {
+  include role::master_server
 }
