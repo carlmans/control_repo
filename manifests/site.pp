@@ -4,7 +4,7 @@ node 'p-master' {
   include role::master_server
   file { '/root/HELLO':
     ensure => file,
-    content => $fqdn,
+    content => "Welcome to ${fqdn}\n",
   }
 }
 node 'p-node' {
