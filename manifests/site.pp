@@ -5,5 +5,6 @@ node default {
     path => '/root/HELLO',
     ensure => file,
     content => 'Hello, world.',
+    owner => 'root',
   }
 }
