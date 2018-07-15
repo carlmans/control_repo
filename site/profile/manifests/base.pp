@@ -3,6 +3,6 @@ class profile::base {
     ensure => present,
   }
   package { 'mosh':
-    ensure => installed,
+    ensure => latest,
   }
 }
