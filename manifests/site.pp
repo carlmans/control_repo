@@ -4,5 +4,6 @@ node default {
   file { 'HELLO':
     path => '/root/HELLO',
     ensure => file,
+    content => 'Hello, world.',
   }
 }
