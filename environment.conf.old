@@ -1,2 +1,0 @@
-modulepath = site:modules:$basemodulepath
-manifest = manifest/site.pp
